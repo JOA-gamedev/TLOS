@@ -19,6 +19,7 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"t","order":1,"path":"notes/t/t.yy",},
     {"name":"card_harten","order":3,"path":"objects/card_harten/card_harten.yy",},
     {"name":"card_klaveren","order":1,"path":"objects/card_klaveren/card_klaveren.yy",},
     {"name":"card_ruiten","order":2,"path":"objects/card_ruiten/card_ruiten.yy",},
