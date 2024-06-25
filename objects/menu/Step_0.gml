@@ -31,32 +31,28 @@ else {
 if (mouse_check_button_pressed(mb_left)) {
 	if(selected_card && mouse_y >= 96 && mouse_y <= 96+64) {
 		//here is where i want the four x positions to be checked
-		if (mouse_x >= 28 && mouse_x <= 28 + 44) {
-           // this triggers if you are clicking inside the first box, with a card in your hand
-		   // but for some reason dropping it does not work
-        } else if (mouse_x >= 80 && mouse_x <= 80 + 44) {
-            
-            selected_card.x = 80;
-			selected_card.y = 96
-			selected_card = noone
-			
-			instance_create_layer(80, 96, "Puzzel", cards[0])
-        } else if (mouse_x >= card_pos[2] && mouse_x <= card_pos[2] + 44) {
-            // Snap to x3
-            selected_card.x = card_pos[2];
-			selected_card.y = 96
-        } else if (mouse_x >= card_pos[3] && mouse_x <= card_pos[3] + 44) {
-            // Snap to x4
-            selected_card.x = card_pos[3];
-			selected_card.y = 96
-        }
+		
+		for (var i = 0; i < array_length(card_pos); i++) {
+		    if (mouse_x >= card_pos[i] && mouse_x <= card_pos[i] + 44) {
+		        selected_card.x = card_pos[i];
+		        selected_card.y = 96;
+		        selected_card = noone;
+		        holding = false;
+		        break;
+		    }
+		}
+		
+		// this code can probably be written shorter
 	}
-	
-	selected_card = instance_position(mouse_x, mouse_y, cards)
+	else {
+		selected_card = instance_position(mouse_x, mouse_y, cards)
+		holding = true;
+	}
 	
 }
 
-if(selected_card) {
+// make the card follow the mouse if the card is being held
+if(selected_card && holding) {
 	selected_card.x = mouse_x - 22 //half width of the card
 	selected_card.y = mouse_y - 32 //half height of the card
 }

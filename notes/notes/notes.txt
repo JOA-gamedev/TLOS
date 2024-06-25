@@ -1,0 +1,26 @@
+//TODO: fix whole references issue - fix cards not letting go
+// why does the .og_pos not work??
+
+
+clearly if i set the reference to the object to noone then it stops tracking
+maybe i should deactivate the reference upon dropping?
+
+im already doing it it just doesnt work, lets clean up the code first
+(i coded this at 3 am yesterday / today)
+
+im thinking so hard rn
+
+
+apperantly the only thing that works as expected is this card which is not attached to anything, 
+by clicking it i can move it, and if i drop the reference it wont follow the mouse anymore
+bruh, i apperantly made a new instance. okay now lets try to solve the issue at hand
+
+IT WORKS!
+
+ive got it working for the last 3 cards, now ive got to figure out whats happening in the first one
+
+
+ive shortened the code with chatgpt, also the reason why 1 was not working was because there where 2 instances behind eachother apperantly
+
+
+next up: making the card which is placed upon, jump to the og_pos of the card being placed!

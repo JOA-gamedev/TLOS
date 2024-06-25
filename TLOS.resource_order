@@ -19,7 +19,7 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
-    {"name":"Note3","order":3,"path":"notes/Note3/Note3.yy",},
+    {"name":"notes","order":3,"path":"notes/notes/notes.yy",},
     {"name":"t","order":1,"path":"notes/t/t.yy",},
     {"name":"card_harten","order":3,"path":"objects/card_harten/card_harten.yy",},
     {"name":"card_klaveren","order":1,"path":"objects/card_klaveren/card_klaveren.yy",},
@@ -34,7 +34,6 @@
     {"name":"obj_context_menu","order":14,"path":"objects/obj_context_menu/obj_context_menu.yy",},
     {"name":"obj_interactable","order":4,"path":"objects/obj_interactable/obj_interactable.yy",},
     {"name":"obj_player","order":1,"path":"objects/obj_player/obj_player.yy",},
-    {"name":"Object16","order":2,"path":"objects/Object16/Object16.yy",},
     {"name":"heavy_fog","order":3,"path":"particles/heavy_fog/heavy_fog.yy",},
     {"name":"light_fog","order":4,"path":"particles/light_fog/light_fog.yy",},
     {"name":"ParticleSystem2","order":1,"path":"particles/ParticleSystem2/ParticleSystem2.yy",},

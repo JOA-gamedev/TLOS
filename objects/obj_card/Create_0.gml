@@ -5,4 +5,4 @@ forward = false
 
 //this is to keep the original position
 og_pos_x = x
-og_pos_y = yc
+og_pos_y = y
