@@ -19,6 +19,7 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"Note3","order":3,"path":"notes/Note3/Note3.yy",},
     {"name":"t","order":1,"path":"notes/t/t.yy",},
     {"name":"card_harten","order":3,"path":"objects/card_harten/card_harten.yy",},
     {"name":"card_klaveren","order":1,"path":"objects/card_klaveren/card_klaveren.yy",},
@@ -26,7 +27,6 @@
     {"name":"game","order":7,"path":"objects/game/game.yy",},
     {"name":"menu","order":9,"path":"objects/menu/menu.yy",},
     {"name":"obj_card_harten","order":11,"path":"objects/obj_card_harten/obj_card_harten.yy",},
-    {"name":"obj_card_holder","order":16,"path":"objects/obj_card_holder/obj_card_holder.yy",},
     {"name":"obj_card_klaveren","order":10,"path":"objects/obj_card_klaveren/obj_card_klaveren.yy",},
     {"name":"obj_card_ruiten","order":12,"path":"objects/obj_card_ruiten/obj_card_ruiten.yy",},
     {"name":"obj_card_schoppen","order":15,"path":"objects/obj_card_schoppen/obj_card_schoppen.yy",},
@@ -34,6 +34,7 @@
     {"name":"obj_context_menu","order":14,"path":"objects/obj_context_menu/obj_context_menu.yy",},
     {"name":"obj_interactable","order":4,"path":"objects/obj_interactable/obj_interactable.yy",},
     {"name":"obj_player","order":1,"path":"objects/obj_player/obj_player.yy",},
+    {"name":"Object16","order":2,"path":"objects/Object16/Object16.yy",},
     {"name":"heavy_fog","order":3,"path":"particles/heavy_fog/heavy_fog.yy",},
     {"name":"light_fog","order":4,"path":"particles/light_fog/light_fog.yy",},
     {"name":"ParticleSystem2","order":1,"path":"particles/ParticleSystem2/ParticleSystem2.yy",},

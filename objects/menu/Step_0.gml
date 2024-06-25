@@ -1,3 +1,5 @@
+
+// code for activating the menu
 if (instance_place(x, y, obj_player) && !obj_player.carrying_object){
 	global.context_menu = spr_use
 	obj_player.no_pickup = true
@@ -8,6 +10,8 @@ if (instance_place(x, y, obj_player) && !obj_player.carrying_object){
 else {
 	obj_player.no_pickup = false
 }
+
+
 
 //handle pause
 if (menu_activated) {
@@ -26,7 +30,6 @@ else {
 // handle moving cards
 if (mouse_check_button_pressed(mb_left)) {
 	if(selected_card && mouse_y >= 96 && mouse_y <= 96+64) {
-		//works
 		//here is where i want the four x positions to be checked
 		if (mouse_x >= 28 && mouse_x <= 28 + 44) {
            // this triggers if you are clicking inside the first box, with a card in your hand

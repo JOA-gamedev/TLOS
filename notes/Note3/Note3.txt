@@ -1,0 +1,11 @@
+//TODO: fix whole references issue - fix cards not letting go
+// why does the .og_pos not work??
+
+
+clearly if i set the reference to the object to noone then it stops tracking
+maybe i should deactivate the reference upon dropping?
+
+im already doing it it just doesnt work, lets clean up the code first
+(i coded this at 3 am yesterday / today)
+
+im thinking so hard rn

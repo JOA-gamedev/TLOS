@@ -38,6 +38,7 @@
   "resources":[
     {"id":{"name":"fnt_medium","path":"fonts/fnt_medium/fnt_medium.yy",},},
     {"id":{"name":"Note1","path":"notes/Note1/Note1.yy",},},
+    {"id":{"name":"Note3","path":"notes/Note3/Note3.yy",},},
     {"id":{"name":"t","path":"notes/t/t.yy",},},
     {"id":{"name":"card_harten","path":"objects/card_harten/card_harten.yy",},},
     {"id":{"name":"card_klaveren","path":"objects/card_klaveren/card_klaveren.yy",},},
@@ -46,7 +47,6 @@
     {"id":{"name":"game","path":"objects/game/game.yy",},},
     {"id":{"name":"menu","path":"objects/menu/menu.yy",},},
     {"id":{"name":"obj_card_harten","path":"objects/obj_card_harten/obj_card_harten.yy",},},
-    {"id":{"name":"obj_card_holder","path":"objects/obj_card_holder/obj_card_holder.yy",},},
     {"id":{"name":"obj_card_klaveren","path":"objects/obj_card_klaveren/obj_card_klaveren.yy",},},
     {"id":{"name":"obj_card_ruiten","path":"objects/obj_card_ruiten/obj_card_ruiten.yy",},},
     {"id":{"name":"obj_card_schoppen","path":"objects/obj_card_schoppen/obj_card_schoppen.yy",},},
@@ -54,6 +54,7 @@
     {"id":{"name":"obj_context_menu","path":"objects/obj_context_menu/obj_context_menu.yy",},},
     {"id":{"name":"obj_interactable","path":"objects/obj_interactable/obj_interactable.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
+    {"id":{"name":"Object16","path":"objects/Object16/Object16.yy",},},
     {"id":{"name":"heavy_fog","path":"particles/heavy_fog/heavy_fog.yy",},},
     {"id":{"name":"light_fog","path":"particles/light_fog/light_fog.yy",},},
     {"id":{"name":"ParticleSystem2","path":"particles/ParticleSystem2/ParticleSystem2.yy",},},
