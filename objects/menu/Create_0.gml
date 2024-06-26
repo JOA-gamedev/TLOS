@@ -16,6 +16,6 @@ cards = array_create(array_length(card_pos), 0);
 
 // Loop through the card positions and create instances
 for (var i = 0; i < array_length(cards); i++) {
-    cards[i] = instance_create_layer(card_pos[i], 96, "Puzzel", card_preset[i]);
+    cards[i] = instance_create_layer(card_pos[i], 96, "puzzel", card_preset[i]);
 	cards[i].last_pos = i;
 }

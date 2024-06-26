@@ -5,6 +5,8 @@ if (instance_place(x, y, obj_player) && !obj_player.carrying_object){
 	obj_player.no_pickup = true
 	if(keyboard_check_pressed(ord("E"))) {
 		menu_activated = true
+				// Loop through the array and reactivate each instance
+				instance_activate_object(all);
 	}
 }
 else {
@@ -19,11 +21,13 @@ if (menu_activated) {
 	obj_player.move_speed = 0;
 	obj_player.image_speed = 0;
 	layer_set_visible("puzzel", visible);
+	
 }
 else {
 	obj_player.move_speed = 2;
 	obj_player.image_speed = 1
 	layer_set_visible("puzzel", false);
+	
 }
 
 
@@ -75,9 +79,9 @@ if (mouse_check_button_pressed(mb_left)) {
 // make the card follow the mouse if the card is being held
 if(selected_card && holding) {
 	for (var i = 0; i < array_length(cards); i++) {
-		cards[i].depth = -100;
+		cards[i].depth = -1;
 	}
-	selected_card.depth = -200
+	selected_card.depth = -2
 	
 	selected_card.x = mouse_x - 22 //half width of the card
 	selected_card.y = mouse_y - 32 //half height of the card

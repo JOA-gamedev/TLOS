@@ -29,3 +29,6 @@ next up: making the card which is placed upon, jump to the og_pos of the card be
 reference naar de kaart die ik vasthou, 
 
 
+its obvious whats happening here, i am messing with depth, but that makes it so that the cards wont use layers
+apperently you cant have depth in layers???
+
