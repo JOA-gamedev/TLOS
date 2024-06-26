@@ -34,8 +34,25 @@ if (mouse_check_button_pressed(mb_left)) {
 		
 		for (var i = 0; i < array_length(card_pos); i++) {
 		    if (mouse_x >= card_pos[i] && mouse_x <= card_pos[i] + 44) {
+				
+				// move target card
+				cards[i].x = card_pos[selected_card.last_pos];
+				
+				
+				//update last position
+				cards[i].last_pos = selected_card.last_pos;
+				
+				//swap array
+				temp = cards[i]
+				cards[i] = selected_card
+				cards[selected_card.last_pos] = temp
+				
+				//update the lastpos of selected card to target position
+				selected_card.last_pos = i
+				// moving card
 		        selected_card.x = card_pos[i];
 		        selected_card.y = 96;
+				//deactivating ref
 		        selected_card = noone;
 		        holding = false;
 		        break;

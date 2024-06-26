@@ -4,11 +4,18 @@ selected_card = noone;
 
 holding = false;
 
-cards = [obj_card_harten, obj_card_schoppen, obj_card_klaveren, obj_card_ruiten]
+// Array with card objects
+card_preset = [obj_card_harten, obj_card_schoppen, obj_card_klaveren, obj_card_ruiten];
 
-card_pos = [28, 80, 132, 184]
+// Array with x positions
+card_pos = [28, 80, 132, 184];
 
-instance_create_layer(28, 96, "Puzzel", cards[0])
-instance_create_layer(80, 96, "Puzzel", cards[1])
-instance_create_layer(132, 96, "Puzzel", cards[2])
-instance_create_layer(184, 96, "Puzzel", cards[3])
+// Initialize the cards array with null or a placeholder
+
+cards = array_create(array_length(card_pos), 0);
+
+// Loop through the card positions and create instances
+for (var i = 0; i < array_length(cards); i++) {
+    cards[i] = instance_create_layer(card_pos[i], 96, "Puzzel", card_preset[i]);
+	cards[i].last_pos = i;
+}
