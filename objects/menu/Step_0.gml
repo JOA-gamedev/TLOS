@@ -30,6 +30,8 @@ else {
 // handle moving cards
 if (mouse_check_button_pressed(mb_left)) {
 	if(selected_card && mouse_y >= 96 && mouse_y <= 96+64) {
+		//move card up
+		
 		//here is where i want the four x positions to be checked
 		
 		for (var i = 0; i < array_length(card_pos); i++) {
@@ -42,10 +44,12 @@ if (mouse_check_button_pressed(mb_left)) {
 				//update last position
 				cards[i].last_pos = selected_card.last_pos;
 				
+				
 				//swap array
-				temp = cards[i]
+				var temp = cards[i]
 				cards[i] = selected_card
 				cards[selected_card.last_pos] = temp
+				temp = undefined;
 				
 				//update the lastpos of selected card to target position
 				selected_card.last_pos = i
@@ -70,6 +74,11 @@ if (mouse_check_button_pressed(mb_left)) {
 
 // make the card follow the mouse if the card is being held
 if(selected_card && holding) {
+	for (var i = 0; i < array_length(cards); i++) {
+		cards[i].depth = -100;
+	}
+	selected_card.depth = -200
+	
 	selected_card.x = mouse_x - 22 //half width of the card
 	selected_card.y = mouse_y - 32 //half height of the card
 }
