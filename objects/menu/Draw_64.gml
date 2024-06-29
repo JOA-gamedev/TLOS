@@ -20,5 +20,14 @@ if (menu_activated) {
 	draw_set_font(fnt_medium)
     draw_text(text_x, text_y, "De volgorde heb ik achterop");
 	draw_text(text_x, text_y + 30, "geschreven in Romeinse cijfers")
+	
+	if(tries == 1) {
+		draw_text(text_x, text_y + 100, "Je hebt 1 kans over")
+		
+	}
+	else {
+		draw_text(text_x, text_y + 100, "Je hebt " + string(tries)+ " kansen over")
+	}
+	
 	draw_text(50, 50, "ESC")
 }

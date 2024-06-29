@@ -19,3 +19,5 @@ for (var i = 0; i < array_length(cards); i++) {
     cards[i] = instance_create_layer(card_pos[i], 96, "puzzel", card_preset[i]);
 	cards[i].last_pos = i;
 }
+
+tries = 5;

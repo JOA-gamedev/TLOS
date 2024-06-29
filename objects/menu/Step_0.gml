@@ -32,7 +32,7 @@ else {
 
 
 // handle moving cards
-if (mouse_check_button_pressed(mb_left)) {
+if (mouse_check_button_pressed(mb_left) && tries != 0) {
 	if(selected_card && mouse_y >= 96 && mouse_y <= 96+64) {
 		//move card up
 		
@@ -40,6 +40,10 @@ if (mouse_check_button_pressed(mb_left)) {
 		
 		for (var i = 0; i < array_length(card_pos); i++) {
 		    if (mouse_x >= card_pos[i] && mouse_x <= card_pos[i] + 44) {
+				
+				if(cards[i].last_pos != selected_card.last_pos) {
+					tries -= 1
+				}
 				
 				// move target card
 				cards[i].x = card_pos[selected_card.last_pos];
@@ -66,8 +70,6 @@ if (mouse_check_button_pressed(mb_left)) {
 		        break;
 		    }
 		}
-		
-		// this code can probably be written shorter
 	}
 	else {
 		selected_card = instance_position(mouse_x, mouse_y, cards)
