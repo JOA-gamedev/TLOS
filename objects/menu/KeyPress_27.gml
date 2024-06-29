@@ -8,3 +8,5 @@ for (var i = 0; i < array_length(cards); i++) {
         instance_deactivate_object(instance_to_deactivate);
     }
 }
+
+tries = 5;

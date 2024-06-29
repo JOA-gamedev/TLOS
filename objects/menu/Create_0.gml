@@ -4,8 +4,11 @@ selected_card = noone;
 
 holding = false;
 
+var card_preset = [obj_card_schoppen, obj_card_harten , obj_card_klaveren, obj_card_ruiten]
 // Array with card objects
-card_preset = [obj_card_harten, obj_card_schoppen, obj_card_klaveren, obj_card_ruiten];
+array_shuffle_ext(card_preset)
+
+
 
 // Array with x positions
 card_pos = [28, 80, 132, 184];
