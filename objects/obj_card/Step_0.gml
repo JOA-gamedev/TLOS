@@ -1,5 +1,6 @@
 /// @description controlls the card animation
 
+
 if forward {
 	if image_index = last_image {
 		image_speed = 0
@@ -8,11 +9,11 @@ if forward {
 		image_speed = 1
 	}
 }else {
-	if image_index = 0 {
-		image_speed = 0
+	if !image_index = 0 {
+		image_speed = -1
 	}
 	else {
-		image_speed = -1
+		image_speed = 0
 	}
 }
 if mouse_check_button_released(mouse_lastbutton){

@@ -60,7 +60,7 @@
           -3,0,1,-2147483648,-4,0,-6,-2147483648,-3,0,-2,-2147483648,-3,0,3,-2147483648,38,38,-4,-2147483648,-2,
           38,-24,-2147483648,-2,38,-4,-2147483648,-2,38,-10,-2147483648,4,38,-2147483648,-2147483648,38,-10,-2147483648,
           -2,38,-4,-2147483648,-13,38,-2,-2147483648,-13,38,-4,-2147483648,-13,38,-2,-2147483648,-13,38,-162,-2147483648,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"Overworld","path":"tilesets/Overworld/Overworld.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":{"name":"Overworld","path":"tilesets/Overworld/Overworld.yy",},"userdefinedDepth":false,"visible":false,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"top_decoration","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"top_decoration","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":64,"SerialiseWidth":32,"TileCompressedData":[
           -682,-2147483648,1,0,-31,-2147483648,1,0,-31,-2147483648,1,0,-89,-2147483648,1,0,-31,-2147483648,1,0,
           -19,-2147483648,-3,0,-9,-2147483648,1,0,-19,-2147483648,-3,0,-9,-2147483648,3,0,-2147483648,970,-17,

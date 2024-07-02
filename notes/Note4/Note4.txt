@@ -11,6 +11,14 @@ het is gelukt met de code van https://www.youtube.com/watch?v=b4WNJOsDLTM
 
 - overgang level 1 naar level 2
 
-- collision toegevoegd aan overworld
+	- card game finish to level 2 - check
+	
+	- fix bugs
+		- kaarten komen tevoorschijn als je erop klikt terwijl het menu niet open is - gefixt
+		- kaarten maken piroutten - check
+		dubbele else -> image_speed = -1 vangt alles, !image_index = 0 maakt het specefieker
+		
 
-- collisions gaven een probleem maar dat is gefixt
+	- collision toegevoegd aan overworld - check
+
+	- collisions gaven een probleem maar dat is gefixt - check

@@ -88,3 +88,9 @@ if(selected_card && holding) {
 	selected_card.x = mouse_x - 22 //half width of the card
 	selected_card.y = mouse_y - 32 //half height of the card
 }
+
+
+
+if checkCardOrder([obj_card_klaveren, obj_card_ruiten, obj_card_harten, obj_card_schoppen]) {
+    door.open = true
+}
