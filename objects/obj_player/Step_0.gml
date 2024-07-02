@@ -6,12 +6,6 @@ var down  = keyboard_check(vk_down);
 
 
 
-// get tileset to check
-var lay_id = layer_get_id("muur");
-var map_id = layer_tilemap_get_id(lay_id);
-
-
-
 /// collision check
 if (left == 1){ 
 	

@@ -10,3 +10,7 @@ het is gelukt met de code van https://www.youtube.com/watch?v=b4WNJOsDLTM
 
 
 - overgang level 1 naar level 2
+
+- collision toegevoegd aan overworld
+
+- collisions gaven een probleem maar dat is gefixt
