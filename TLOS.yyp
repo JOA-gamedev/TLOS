@@ -38,6 +38,7 @@
   "resources":[
     {"id":{"name":"fnt_medium","path":"fonts/fnt_medium/fnt_medium.yy",},},
     {"id":{"name":"Note1","path":"notes/Note1/Note1.yy",},},
+    {"id":{"name":"Note4","path":"notes/Note4/Note4.yy",},},
     {"id":{"name":"notes","path":"notes/notes/notes.yy",},},
     {"id":{"name":"t","path":"notes/t/t.yy",},},
     {"id":{"name":"card_harten","path":"objects/card_harten/card_harten.yy",},},

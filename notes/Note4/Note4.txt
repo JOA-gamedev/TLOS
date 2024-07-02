@@ -1,0 +1,12 @@
+wat gaan we doen vandaag?
+
+- collisions van level 1 - done
+eerst moeten we een tile layer maken die alleen de muren heeft - check
+nu moet ik ervoor zorgen dat je alleen word geblokkeerd als je probeerd te lopen in de richting van de muur
+misschien kunnen we het doen door de laatste richting te onthouden
+
+het is gelukt met de code van https://www.youtube.com/watch?v=b4WNJOsDLTM
+
+
+
+- overgang level 1 naar level 2
