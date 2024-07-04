@@ -56,6 +56,7 @@
     {"id":{"name":"obj_context_menu","path":"objects/obj_context_menu/obj_context_menu.yy",},},
     {"id":{"name":"obj_interactable","path":"objects/obj_interactable/obj_interactable.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
+    {"id":{"name":"obj_bigdoor","path":"objects/obj_bigdoor/obj_bigdoor.yy",},},
     {"id":{"name":"heavy_fog","path":"particles/heavy_fog/heavy_fog.yy",},},
     {"id":{"name":"light_fog","path":"particles/light_fog/light_fog.yy",},},
     {"id":{"name":"ParticleSystem2","path":"particles/ParticleSystem2/ParticleSystem2.yy",},},
@@ -65,6 +66,7 @@
     {"id":{"name":"level2","path":"rooms/level2/level2.yy",},},
     {"id":{"name":"backup","path":"sprites/backup/backup.yy",},},
     {"id":{"name":"Banner","path":"sprites/Banner/Banner.yy",},},
+    {"id":{"name":"bigdoor","path":"sprites/bigdoor/bigdoor.yy",},},
     {"id":{"name":"harten","path":"sprites/harten/harten.yy",},},
     {"id":{"name":"inner","path":"sprites/inner/inner.yy",},},
     {"id":{"name":"klaveren","path":"sprites/klaveren/klaveren.yy",},},
@@ -85,7 +87,6 @@
     {"id":{"name":"Sprite24","path":"sprites/Sprite24/Sprite24.yy",},},
     {"id":{"name":"Sprite25","path":"sprites/Sprite25/Sprite25.yy",},},
     {"id":{"name":"Sprite26","path":"sprites/Sprite26/Sprite26.yy",},},
-    {"id":{"name":"Sprite27","path":"sprites/Sprite27/Sprite27.yy",},},
     {"id":{"name":"Sprite6","path":"sprites/Sprite6/Sprite6.yy",},},
     {"id":{"name":"Sprite7","path":"sprites/Sprite7/Sprite7.yy",},},
     {"id":{"name":"Sprite8","path":"sprites/Sprite8/Sprite8.yy",},},
@@ -99,8 +100,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"level2","path":"rooms/level2/level2.yy",},},
     {"roomId":{"name":"level1","path":"rooms/level1/level1.yy",},},
+    {"roomId":{"name":"level2","path":"rooms/level2/level2.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
