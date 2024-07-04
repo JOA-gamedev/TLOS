@@ -22,3 +22,6 @@ het is gelukt met de code van https://www.youtube.com/watch?v=b4WNJOsDLTM
 	- collision toegevoegd aan overworld - check
 
 	- collisions gaven een probleem maar dat is gefixt - check
+
+
+todo morgen
