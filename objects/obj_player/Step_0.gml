@@ -75,6 +75,7 @@ else {
 
 // Check if 'E' key is pressed
 if (keyboard_check_pressed(ord("E"))) {
+	sprite_index = sPlayer_grab;
     // Check if carrying an object
     if (carrying_object != noone) {
 		carrying_object.y = y + -20;
@@ -106,6 +107,6 @@ else {
 
 
 if(global.context_menu) {
-	obj_context_menu.x = x + 40
-	obj_context_menu.y = y + 10
+	obj_context_menu.x = x + 24
+	obj_context_menu.y = y
 }
