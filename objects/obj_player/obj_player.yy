@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite6",
-    "path":"sprites/Sprite6/Sprite6.yy",
+    "name":"sPlayer_s_down",
+    "path":"sprites/sPlayer_s_down/sPlayer_s_down.yy",
   },
   "spriteMaskId":null,
   "visible":true,
