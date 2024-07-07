@@ -12,7 +12,6 @@
     {"name":"inst_92BA783","path":"rooms/level2/level2.yy",},
     {"name":"inst_4A15A89A","path":"rooms/level2/level2.yy",},
     {"name":"inst_7507C739","path":"rooms/level2/level2.yy",},
-    {"name":"inst_1C6ED8F3","path":"rooms/level2/level2.yy",},
     {"name":"inst_7B13E82C","path":"rooms/level2/level2.yy",},
   ],
   "isDnd":false,
@@ -27,7 +26,6 @@
         {"$GMRInstance":"","%Name":"inst_92BA783","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_92BA783","objectId":{"name":"card_ruiten","path":"objects/card_ruiten/card_ruiten.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":229.0,"y":224.0,},
         {"$GMRInstance":"","%Name":"inst_4A15A89A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4A15A89A","objectId":{"name":"card_schoppen","path":"objects/card_schoppen/card_schoppen.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":12.0,"y":132.0,},
         {"$GMRInstance":"","%Name":"inst_7507C739","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7507C739","objectId":{"name":"door","path":"objects/door/door.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":112.0,"y":16.0,},
-        {"$GMRInstance":"","%Name":"inst_1C6ED8F3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1C6ED8F3","objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":128.0,"y":80.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_2","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_2","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":16,"SerialiseWidth":16,"TileCompressedData":[
           -65,-2147483648,1,486,-12,-2147483648,4,487,-2147483648,-2147483648,526,-12,-2147483648,4,527,-2147483648,

@@ -1,16 +1,16 @@
 {
   "$GMRoom":"",
-  "%Name":"Room3",
+  "%Name":"level3",
   "creationCodeFile":"",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_1B8DDA9F","path":"rooms/Room3/Room3.yy",},
-    {"name":"inst_28A3ECBB","path":"rooms/Room3/Room3.yy",},
-    {"name":"inst_14EF803A","path":"rooms/Room3/Room3.yy",},
-    {"name":"inst_682CF10","path":"rooms/Room3/Room3.yy",},
-    {"name":"inst_33A8282B","path":"rooms/Room3/Room3.yy",},
+    {"name":"inst_1B8DDA9F","path":"rooms/level3/level3.yy",},
+    {"name":"inst_28A3ECBB","path":"rooms/level3/level3.yy",},
+    {"name":"inst_14EF803A","path":"rooms/level3/level3.yy",},
+    {"name":"inst_682CF10","path":"rooms/level3/level3.yy",},
+    {"name":"inst_33A8282B","path":"rooms/level3/level3.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -162,7 +162,7 @@
         ],"TileDataFormat":1,},"tilesetId":{"name":"TileSet5","path":"tilesets/TileSet5/TileSet5.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":700,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
-  "name":"Room3",
+  "name":"level3",
   "parent":{
     "name":"Rooms",
     "path":"folders/Rooms.yy",
