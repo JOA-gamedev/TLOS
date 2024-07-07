@@ -76,6 +76,7 @@
     {"name":"Sprite24","order":20,"path":"sprites/Sprite24/Sprite24.yy",},
     {"name":"Sprite25","order":21,"path":"sprites/Sprite25/Sprite25.yy",},
     {"name":"Sprite26","order":17,"path":"sprites/Sprite26/Sprite26.yy",},
+    {"name":"cave","order":29,"path":"sprites/cave/cave.yy",},
     {"name":"Sprite6","order":3,"path":"sprites/Sprite6/Sprite6.yy",},
     {"name":"Sprite7","order":5,"path":"sprites/Sprite7/Sprite7.yy",},
     {"name":"Sprite8","order":6,"path":"sprites/Sprite8/Sprite8.yy",},
