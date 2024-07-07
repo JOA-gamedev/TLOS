@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"soundBackgroundMusic",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":57.52583,
+  "name":"soundBackgroundMusic",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"soundBackgroundMusic.wav",
+  "type":1,
+  "volume":0.34,
+}
