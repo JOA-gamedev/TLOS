@@ -1,0 +1,1 @@
+global.context_menu = spr_empty

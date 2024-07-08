@@ -1,4 +1,4 @@
-if (room_width >= 400 && room_height >= 400) {
+if (room_width >= 400) {
 	halfViewWidth = camera_get_view_width(view_camera[0]) / 2 - sprite_width / 2;
 	halfViewHeight = camera_get_view_height(view_camera[0]) / 2   - sprite_height / 2;
 
