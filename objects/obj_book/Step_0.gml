@@ -38,12 +38,12 @@ if open {
 if (menu_activated) {
 	obj_player.move_speed = 0;
 	obj_player.image_speed = 0;
-	layer_set_visible("boek", visible);
+	//layer_set_visible("boek", visible);
 	
 }
 else {
 	obj_player.move_speed = 2;
 	obj_player.image_speed = 1;
-	layer_set_visible("boek", false);
+	//layer_set_visible("boek", false);
 	
 }
