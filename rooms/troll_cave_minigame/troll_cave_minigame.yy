@@ -31,10 +31,11 @@
           -22,-2147483648,7,87,86,86,88,-2147483648,87,88,-4,-2147483648,7,103,102,102,104,-2147483648,103,104,
           -10,-2147483648,1,70,-59,-2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"ts_cave","path":"tilesets/ts_cave/ts_cave.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
-    {"$GMRTileLayer":"","%Name":"muur","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"muur","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":10,"SerialiseWidth":11,"TileCompressedData":[
-          1,0,-32,69,-5,0,-6,69,-4,0,-7,69,-4,0,-3,69,3,0,69,69,-5,0,-3,69,-8,0,-3,69,-8,0,-3,69,-8,0,-3,69,-4,
-          0,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"ts_cave","path":"tilesets/ts_cave/ts_cave.yy",},"userdefinedDepth":false,"visible":false,"x":0,"y":0,},
+    {"$GMRTileLayer":"","%Name":"muur","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"muur","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":20,"SerialiseWidth":22,"TileCompressedData":[
+          -132,1,-10,0,-4,1,1,0,-7,1,-10,0,-4,1,1,0,-7,1,-12,0,-2,1,1,0,-7,1,-9,0,-2,1,4,0,1,1,0,-7,1,-9,0,-2,
+          1,-6,0,-2,1,-12,0,-5,1,-17,0,-5,1,-17,0,-5,1,-17,0,-5,1,-17,0,-5,1,-17,0,-5,1,-17,0,-5,1,-17,0,-5,1,
+          -17,0,-5,1,-8,0,
+        ],"TileDataFormat":1,},"tilesetId":{"name":"TileSet7","path":"tilesets/TileSet7/TileSet7.yy",},"userdefinedDepth":false,"visible":false,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"Tiles_2","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_2","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":10,"SerialiseWidth":11,"TileCompressedData":[
           -11,50,-11,66,-11,82,-7,10,1,75,-3,76,-4,10,4,75,77,10,91,-3,92,-4,10,7,91,94,77,107,79,78,108,-4,10,
           6,91,92,93,10,107,109,-5,10,3,91,92,93,-8,10,3,91,92,93,-6,10,9,16,10,91,92,93,10,16,10,10,
