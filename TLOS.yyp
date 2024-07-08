@@ -72,6 +72,7 @@
     {"id":{"name":"level1","path":"rooms/level1/level1.yy",},},
     {"id":{"name":"level2","path":"rooms/level2/level2.yy",},},
     {"id":{"name":"level3","path":"rooms/level3/level3.yy",},},
+    {"id":{"name":"Room6","path":"rooms/Room6/Room6.yy",},},
     {"id":{"name":"troll_cave_minigame","path":"rooms/troll_cave_minigame/troll_cave_minigame.yy",},},
     {"id":{"name":"troll_cave","path":"rooms/troll_cave/troll_cave.yy",},},
     {"id":{"name":"background","path":"sounds/background/background.yy",},},
@@ -138,6 +139,7 @@
     {"roomId":{"name":"level3","path":"rooms/level3/level3.yy",},},
     {"roomId":{"name":"troll_cave","path":"rooms/troll_cave/troll_cave.yy",},},
     {"roomId":{"name":"troll_cave_minigame","path":"rooms/troll_cave_minigame/troll_cave_minigame.yy",},},
+    {"roomId":{"name":"Room6","path":"rooms/Room6/Room6.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
